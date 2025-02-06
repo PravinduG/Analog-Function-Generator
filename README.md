@@ -3,7 +3,7 @@
 ![Analog Function Generator](Images/Assembly_1.jpg)
 
 ## Project Overview
-A precise analog function generator capable of generating multiple waveforms in a wide range of frequencies. This is an idea device for electronics enthusiasts to obtain various waveforms they may need.
+A precise analog function generator capable of generating multiple waveforms in a wide range of frequencies. This is an ideal device for electronics enthusiasts to obtain various waveforms they may need.
 
 ### Features
 - **Waveforms:** Sine, Square, PWM, Triangle, Sawtooth
