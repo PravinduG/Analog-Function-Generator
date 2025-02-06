@@ -93,3 +93,9 @@ The function generator runs on a schmitt trigger oscillator, which uses hysteres
 ## Future Improvements
 - **Extended Frequency Range:** Increase the stability at higher frequencies.
 - **Improved Output Stage:** Redesigning the output stage to be able to drive smaller loads.
+
+## Acknowledgements
+- Pravindu Goonetilleke @PravinduG
+- Amoda Attanayake @AmodaA
+- Lahiru Perera @LahiruCKPerera
+- Sithum de Zoysa @sithum02
