@@ -95,7 +95,8 @@ The function generator runs on a schmitt trigger oscillator, which uses hysteres
 - **Improved Output Stage:** Redesigning the output stage to be able to drive smaller loads.
 
 ## Acknowledgements
-- Pravindu Goonetilleke @PravinduG
-- Amoda Attanayake @AmodaA
-- Lahiru Perera @LahiruCKPerera
-- Sithum de Zoysa @sithum02
+- [Pravindu Goonetilleke](https://github.com/PravinduG)
+- [Amoda Attanayake](https://github.com/AmodaA)
+- [Lahiru Perera](https://github.com/LahiruCKPerera)
+- [Sithum de Zoysa](https://github.com/sithum02)
+
