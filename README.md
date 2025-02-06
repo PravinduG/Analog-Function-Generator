@@ -1,6 +1,7 @@
-# Analog Function Generator
-
-<img src="Images/Assembly_1.jpg" width="50%">
+<figure>
+  <img src="Images/Assembly_1.jpg" width="50%">
+  <figcaption>Complete assembly of the Analog Function Generator.</figcaption>
+</figure>
 
 ## Project Overview
 A precise analog function generator capable of generating multiple waveforms in a wide range of frequencies. This is an ideal device for electronics enthusiasts to obtain various waveforms they may need.
@@ -9,10 +10,13 @@ A precise analog function generator capable of generating multiple waveforms in 
 - **Waveforms:** Sine, Square, PWM, Triangle, Sawtooth
 - **Amplitude:** Adjustable 0-10V output
 - **Frequency Range:** 20Hz to 20,000Hz
-- **Design:** Build with analog components only.
+- **Design:** Built with analog components only.
 
 ## Circuit Diagram
-<img src="Images/PCBschematic.jpg" width="50%">
+<figure>
+  <img src="Images/PCBschematic.jpg" width="50%">
+  <figcaption>Schematic diagram of the PCB.</figcaption>
+</figure>
 
 ## Components
 - **Resistors:** 
@@ -25,8 +29,10 @@ A precise analog function generator capable of generating multiple waveforms in 
 The function generator runs on a schmitt trigger oscillator, which uses hysteresis to generate triangle and square waves. These waves are then filtered, amplified, and compared to produce sine, pwm, and sawtooth waveforms.
 
 ## PCB
-<img src="Images/PCB.png" width="50%">
-*Caption: PCB.*
+<figure>
+  <img src="Images/PCB.png" width="50%">
+  <figcaption>Photograph of the PCB layout.</figcaption>
+</figure>
 
 ## Setup & Usage
 1. **Build the Circuit:** Construct the function generator on a PCB or a breadboard, and connect the relevant components.
@@ -36,29 +42,45 @@ The function generator runs on a schmitt trigger oscillator, which uses hysteres
 5. **Connect to Oscilloscope:** Connect to an oscilloscope and verify the output.
 
 ## Output Results
-<img src="Images/sine_10kHz_10v.jpg" width="50%">
-*Caption: Output sine waveform.*
+<figure>
+  <img src="Images/sine_10kHz_10v.jpg" width="50%">
+  <figcaption>Output sine waveform at 10kHz and 10V.</figcaption>
+</figure>
 
-<img src="Images/sine_10kHz_fft.jpg" width="50%">
-*Caption: FFT of the sine waveform.*
+<figure>
+  <img src="Images/sine_10kHz_fft.jpg" width="50%">
+  <figcaption>FFT of the sine waveform showing its frequency spectrum.</figcaption>
+</figure>
 
-<img src="Images/square_10kHz_10V.jpg" width="50%">
-*Caption: Output square waveform.*
+<figure>
+  <img src="Images/square_10kHz_10V.jpg" width="50%">
+  <figcaption>Output square waveform at 10kHz and 10V.</figcaption>
+</figure>
 
-<img src="Images/PWM_10kHz_0.8duty.jpg" width="50%">
-*Caption: Output PWM waveform at 80% duty.*
+<figure>
+  <img src="Images/PWM_10kHz_0.8duty.jpg" width="50%">
+  <figcaption>Output PWM waveform with 80% duty cycle at 10kHz.</figcaption>
+</figure>
 
-<img src="Images/PWM_10kHz_0.01duty.jpg" width="50%">
-*Caption: Output PWM waveform at 1% duty.*
+<figure>
+  <img src="Images/PWM_10kHz_0.01duty.jpg" width="50%">
+  <figcaption>Output PWM waveform with 1% duty cycle at 10kHz.</figcaption>
+</figure>
 
-<img src="Images/PWM_10kHz_0.99duty.jpg" width="50%">
-*Caption: Output PWM waveform at 99% duty.*
+<figure>
+  <img src="Images/PWM_10kHz_0.99duty.jpg" width="50%">
+  <figcaption>Output PWM waveform with 99% duty cycle at 10kHz.</figcaption>
+</figure>
 
-<img src="Images/triangle_10kHz_10v.jpg" width="50%">
-*Caption: Output triangle waveform.*
+<figure>
+  <img src="Images/triangle_10kHz_10v.jpg" width="50%">
+  <figcaption>Output triangle waveform at 10kHz and 10V.</figcaption>
+</figure>
 
-<img src="Images/sawtooth_10kHz_10v.jpg" width="50%">
-*Caption: Output sawtooth waveform.*
+<figure>
+  <img src="Images/sawtooth_10kHz_10v.jpg" width="50%">
+  <figcaption>Output sawtooth waveform at 10kHz and 10V.</figcaption>
+</figure>
 
 ## Challenges Faced
 - **Stability:** Maintaining stability and symmetry across the entire range for the sawtooth waveform.
@@ -67,4 +89,4 @@ The function generator runs on a schmitt trigger oscillator, which uses hysteres
 
 ## Future Improvements
 - **Extended Frequency Range:** Increase the stability at higher frequencies.
-- **Improved output stage:** Redesigning the output stage to be able to drive smaller loads.
+- **Improved Output Stage:** Redesigning the output stage to be able to drive smaller loads.
