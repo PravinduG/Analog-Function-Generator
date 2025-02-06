@@ -1,3 +1,6 @@
+# Analog Function Generator
+
+
 <figure>
   <img src="Images/Assembly_1.jpg" width="50%">
   <figcaption>Complete assembly of the Analog Function Generator.</figcaption>
